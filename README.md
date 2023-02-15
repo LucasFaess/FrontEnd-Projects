@@ -11,4 +11,4 @@ Projetos simples para desenvolver e aprimorar minhas habilidades HTML e CSS.
 ![Print Projeto 3](./LandingPage/img/printProjeto.png)
 
 # Projeto 4
-![Print Projeto 4](./CadastroEmail/img/printProjeto.png)
+![Print Projeto 4](./CadastroEmail/printProjeto.png)
