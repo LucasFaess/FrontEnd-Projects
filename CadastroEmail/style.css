@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: #b6a6a6a1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container{
+    width: 1200px;
+    height: 650px;
+
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+}
+
+.col1{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+}
+.col1 .col{
+    margin-top: 50px;
+    margin-left: 110px;
+}
+.col .logo{
+    padding-bottom: 70px;
+}
+.col .titulo h1:nth-child(1){
+    color: rgb(198, 158, 156);
+    font-family: 'Times New Roman', Times, serif;
+}
+.col .titulo{
+    font-size: 28px;
+    width: 240px;
+    letter-spacing: 6px;
+    color: rgb(64, 55, 56);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 30px;
+}
+.col .p{
+    color: rgb(198, 158, 156);
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 400px;
+    line-height: 24px;
+    padding-bottom: 30px;
+}
+.col .inp {
+    width: 385px;
+    height: 45px;
+    border: solid 1px #000;
+    border-radius: 18px;
+}
+input{
+    height: 40px;
+    width: 325px;
+    border-radius: 18px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    padding: 5px;
+    background-color: transparent;
+}
+.col .inp button{
+    width: 58px;
+    height: 43px;
+    border-radius: 18px;
+    border: none;
+    background-color: rgb(198, 158, 156);
+    margin-top: 0px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.col .inp button:hover{
+    background-color: rgb(198, 158, 156);
+    transform: scale(1.3);
+}
+.col2{
+    width: 500px;
+    background-image: url(img/hero-desktop.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
