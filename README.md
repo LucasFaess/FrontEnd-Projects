@@ -15,4 +15,4 @@ Inspirados nos desafios do "devporai" https://devporai.com.br/5-projetos-fronten
 ![Print Projeto 4](./CadastroEmail/printProjeto.png)
 
 # Projeto 5 - CapturaLead
-![Print Projeto 4](./CapturaLead/printProjeto.png)
+![Print Projeto 5](./CapturaLead/PrintProjeto.png)
