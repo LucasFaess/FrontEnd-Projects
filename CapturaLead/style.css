@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #ecd5d5;
+}
+
+.main-container{
+    background-image: url(img/bg-intro-desktop.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(252, 113, 117);
+    
+    width: 1100px;
+    height: 700px;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.col1{
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.col1 h1,p{
+    width: 400px;
+    color: #fff;
+    margin: 10px;
+}
+.col1 h1{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.col1 p{
+    font-size: 16px;
+}
+
+.col2{
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.col2 .msg{
+    width: 450px;
+    height: 40px;
+
+    background-color: rgb(101, 91, 196);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: 0px 5px 6px #2222229a;
+}
+
+.col2 .inp{
+    width: 450px;
+    height: 450px;
+
+    background-color: #fff;
+    margin-top: 30px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+.col2 .inp .inpu{
+    width: 370px;
+    height: 40px;
+    border: solid 1px #b9b9b9;
+    margin-top: 30px;
+    outline: none;
+    padding: 5px;
+    font-size: 16px;
+    box-shadow: 0px 2px 3px #2222229a;
+}
+.col2 .inp div{
+    width: 370px;
+    display: flex;
+}
+.col2 .inp div p{
+    color: #adadad;
+    font-size: 12px;
+}
+.col2 .inp .check{
+    border: solid 1px #b9b9b9;
+    margin-top: 0px;
+    outline: none;
+    padding: 5px;
+    font-size: 16px;
+}
+
+input:nth-child(5){
+    background-color: rgb(86, 213, 157);
+    border: none;
+    color: #fff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.4s;
+}
+input:nth-child(5):hover{
+    box-shadow: 0px 1px 3px #222;
+    cursor: pointer;
+    scale: 1.1;
+}
+
+input:required, input:invalid{
+    border: solid red 1px;
+}

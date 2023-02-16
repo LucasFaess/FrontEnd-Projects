@@ -77,12 +77,13 @@ input{
 .col .inp button{
     width: 58px;
     height: 43px;
-    border-radius: 18px;
+    border-radius: 16px;
     border: none;
     background-color: rgb(198, 158, 156);
     margin-top: 0px;
     transition: 0.5s;
     cursor: pointer;
+    scale: 1.055;
 }
 .col .inp button:hover{
     background-color: rgb(198, 158, 156);
